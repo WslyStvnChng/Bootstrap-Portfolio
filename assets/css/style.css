@@ -1,4 +1,26 @@
-body{
-  background-color: #333;
-  color: #4aaaa5;
+
+/* Nav Bar */
+.navbar-brand {
+  line-height: 25px;
+}
+
+.navbar-nav {
+  opacity: 0.7;
+}
+
+#home {
+  background-color: #4aaaa5;
+}
+
+/* Jumbotron */
+.jumbotron{
+  background-color: rgba(48, 46, 46, 0.596);  
+  border-color: white;
+}
+
+/* Section */
+h1{
+  color: white;
+  font-size: 50px;
+  opacity: 0.4;
 }
