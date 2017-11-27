@@ -1,5 +1,6 @@
     body {
-    padding-top: 54px;
+    padding: 0;
+    margin: 0;
 }
 
 @media (min-width: 992px) {
@@ -57,4 +58,11 @@ h3 {
     
 #project-title {
     text-align: left;
+}
+
+/* footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
