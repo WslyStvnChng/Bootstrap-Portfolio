@@ -15,7 +15,7 @@
 
 
   <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/reset/reset.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -32,89 +32,127 @@
   <title>Steven Cheng's Portfolio</title>
 </head>
 
-  <!-- Nav -->
-<body id="home"></body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <!-- next line can add title -->
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Steven Cheng</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
+
+<!-- Page Content -->
 <div class="container">
 
-  <div class="row row-offcanvas row-offcanvas-right">  
-    <div class="col-md-12">
-      <p class="float-right hidden-md-up">
-        <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+  <!-- Portfolio Item Heading -->
+  <h1 class="my-4">Page Heading
+    <small>Secondary Text</small>
+  </h1>
+
+  <!-- Portfolio Item Row -->
+  <div class="row">
+
+    <div class="col-md-3 pt-4">
+      <img class="img-fluid" src="assets/images/002.jpg" alt="002">
+    </div>
+
+    <div class="col-md-6 pt-1 ml-auto">
+      <h3 class="my-3">About</h3>
+      <p>Well…as an American Born Chinese raised in Denver, Colorado my household believed I was destined to become a doctor
+        or something along the medical field. As a child, I wasn’t the best student, I didn’t have the best grades but I
+        tried my hardest to accomplish every task given to me. When I was 9 years old, technology was at it’s latest – 56k
+        AOL internet was the hottest item on the market and I was privilege to have it at my home. Boy, I was surfing the
+        web loving every minute of the “World Wide Web” and knew that I wanted to pursue a career within the technology world.
       </p>
-      <div class="jumbotron">
-        <h1>Steven Cheng</h1>
-      </div>
-      <div class="row">
-        <div class="col-md-8">
-          <h2>About Me</h2>
-          <p>
-          Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
-          nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2>Whats up</h2>
-        </div>
-      </div>  
+      <p>
+        20 years later – I’ve gain knowledge and self-worth about myself from experiencing opportunities that lead me to what I want
+        to do in this world. I want to contribute my time to face real problems in the world. I want to pave a bridge between
+        healthcare and technology, bringing new innovation to help patients understand ways to benefit their health through
+        coding.
+      </p>
+    </div>
+    <div class="col-md-3 pt-1">
+      <h3 class="my-3">Contact</h3>
+      <a href="https://github.com/WslyStvnChng">
+        <img class="icons" src="assets/images/git.png" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/steven-cheng-4a4383a9/">
+        <img class="icons" src="assets/images/linkedin.png" alt="linkedin">
+      </a>
+      <a href="https://stackoverflow.com/users/8577355/s-cheng">
+        <img class="icons" src="assets/images/stack.png" alt="Stack_Overflow">
+      </a>
+    </div>
+  </div>
+  <!-- /.row -->
 
+  <!-- Related Projects Row -->
+  <h3 class="my-4">Projects</h3>
 
+  <div class="row">
 
+    <div class="col-md-2 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </a>
+    </div>
 
+    <div class="col-md-2 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </a>
+    </div>
 
+    <div class="col-md-2 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </a>
+    </div>
 
-  <!-- About Section -->
-  <header id="home-section">
-      <div class="overlay">
-        <div class="home-inner">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8">
-                  <h1 class="display-4">This is</h1>
-                  <div class="d-flex flex-row">
-                    <div class="p-4">
-                      <h2>About Me</h2>
-                      <tr></tr>
-                    </div>
-                  </div>
-              
-              
-            </div>
-          </div>
-        </div>   
-      </divr>
-    </header>
+    <div class="col-md-2 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-6 mb-4">
+      <a href="#">
+        <img class="img-fluid" src="http://placehold.it/500x300" alt="">
+      </a>
+    </div>
+  </div>
+  <!-- /.row -->
 
-  
- 
+</div>
+<!-- /.container -->
 
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; 2017 by Steven Cheng</p>
+  </div>
+  <!-- /.container -->
+</footer>
 
 </body>
+
 </html>
