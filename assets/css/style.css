@@ -40,17 +40,30 @@ h3 {
     text-transform: lowercase;
     color: #4aaaa5;
 }
+
+.my-333 {
+    text-align: center;
+}
 /* main photo */
     
 #photo {
     height: 300px;
     width: 105%;
 }
+
+img {
+    width: 15%;
+}
     
 /* icons to connect */
 
 #contacting {
     text-align: center;
+    margin-left: 85px;
+}
+
+.icons {
+    margin-left: 40%;
 }
     
     
@@ -62,7 +75,7 @@ h3 {
 
 /* footer */
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
