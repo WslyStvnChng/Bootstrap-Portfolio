@@ -23,6 +23,10 @@ body {
     }
 }
 
+.wrapper {
+    border: 2px solid white;
+}
+
 
 /* nav bar */
 
@@ -37,26 +41,41 @@ body {
     color: white;
 }
 
+
 /* Portfolio Item Row */
+
+p {
+    font-size: 12px;
+}
 
 h1 {
     color: white;
-    font-size: 50px;
-    /* opacity: 0.4; */
+    font-size: 40px;
+    opacity: 0.9;
 }
+
 
 h2 {
     color: white;
     font-weight: bold;
 }
 
-p {
-    font-size: 12px;
-}
-
 h3 {
     text-transform: lowercase;
-    color:lightslategray;
+    color: rgb(255, 255, 255);
+}
+
+h5 {
+    font-weight: bold;
+    color: #919597;
+    background: white;
+    opacity: 0.9;
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 13px;
+    text-transform: lowercase;
 }
 
 .my-3 {
@@ -74,8 +93,9 @@ h3 {
 /* main photo */
 
 #photo {
-    height: 300px;
-    width: 105%;
+    height: auto;
+    width: 30%%;
+    margin-top: 3%;
 }
 
 img {
@@ -97,9 +117,11 @@ img {
 
 /* Contact Row */
 
+
+/* 
 #project-title {
     text-align: left;
-}
+} */
 
 
 /* footer */
