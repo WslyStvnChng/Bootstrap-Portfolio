@@ -22,13 +22,13 @@ body {
         padding-top: 56px;
     }
 }
-
+/* Entire Container */
 .wrapper {
     border: 2px solid white;
 }
 
 
-/* nav bar */
+/* Nav Bar */
 
 .navbar {
     border-bottom: 3px #4aaaa5 solid;
@@ -114,15 +114,15 @@ img {
     margin-left: 40%;
 }
 
+/* Social Sites */
+a{
+    color: #4aaaa5;
+}
 
-/* Contact Row */
-
-
-/* 
-#project-title {
-    text-align: left;
-} */
-
+a:hover,a:focus {
+    text-decoration: none;
+    color: #26a5d3;
+}
 
 /* footer */
 
