@@ -13,21 +13,12 @@ body {
     background-attachment: fixed;
 }
 
-.dark-overlay {
-    background-size: cover;
-}
 
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
-}
 /* Entire Container */
-.wrapper {
+/*.wrapper {
     border: 2px solid white;
 }
-
-
+*/
 /* Nav Bar */
 
 .navbar {
@@ -50,8 +41,8 @@ p {
 
 h1 {
     color: white;
-    font-size: 40px;
     opacity: 0.9;
+    text-transform: lowercase;
 }
 
 
@@ -95,7 +86,8 @@ h6 {
 #photo {
     height: auto;
     width: 30%%;
-    margin-top: 3%;
+    margin-top: 8%;
+    
 }
 
 img {
